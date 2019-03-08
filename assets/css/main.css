@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1510&q=80");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    background-image: url("https://www.blackstonewinery.com/images/banner-mushroom-lasagna.jpg");
+    background-size: cover;
+    image-rendering: -moz-crisp-edges;
+    height: 500px;
+}
+
+.title {
+    color: azure;
+    font-weight: bolder;
+    font-size: 65px;
+    font-family: 'Lobster', cursive;
+    border: 10px double white;
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+}
+
+.title {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.nav-bar {
+    text-align: center;
+    background-color: brown;
+    padding: 18px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.nav-bar ul li {
+    display: inline;
+    text-align: center;
+    margin: 0 13px;
+}
+
+.nav-bar ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px;
+    overflow: visible;
+    transition: 0.5s;
+}
+
+.nav-bar ul li a:hover {
+    background-color: rgb(189, 75, 75);
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+h2 {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    font-size: 34px;
+    border: 2px solid brown;
+    border-radius: 8px;
+    width: 20%;
+    margin: 50px auto;
+    padding: 5px;
+}
+
+#introduction {
+    padding: 10px;
+}
+
+#introduction p {
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    width: 65%;
+    margin: 0 auto;
+}
+
+#video {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.ingredients {
+    text-align: center;
+}
+
+h3 {
+    font-size: 28px;
+    padding: 10px;
+    border-radius: 2px;
+    color: brown;
+    width: 29%;
+    margin: 10px auto;
+}
+
+.ingredients ul {
+    text-align: center;
+}
+
+.ingredients ul li {
+    list-style-type: none;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.ingredients-style {
+    margin: 0 auto;
+    border: 4px dotted brown;
+    width: 30%;
+}
+
+#stepbystep {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    padding: 37px;
+}
+
+td {
+    
+    height: 300px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+td p {
+    font-size: 22px;
+    padding: 10px;
+}
+
+tr.heading {
+    border-spacing: 10px;
+    height: 30px;
+    padding: 5px;
+    font-size: 22px;
+}
+
+th.number {
+    padding: 5px;
+    color: white;
+    background-color: brown;
+}
+
+.table-style-ragù {
+    background-image: url("https://visit.marketing-italia.eu/uploads/visitnaples/uploads_articoli/paragrafo/201807171034471498118488325.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.table-style-besciamella {
+    background-image: url("https://www.nonnapaperina.it/wp-content/uploads/2013/08/Besciamella-con-latte-di-quinoa-e-farina-di-riso-3-792x450.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.table-style-layering {
+    background-image: url("http://footage.framepool.com/shotimg/254240462-lasagne-sheet-layering-ground-meat-sauce-baked-pasta.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.process {
+    margin: 80px auto;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+    background-color: brown;
+    color: white;
+}
+
+footer p {
+    padding: 10px;
+}
+
+.button {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.ratio {
+    padding: 10px;
+}
+
+form label {
+    padding: 10px;
+}
+
+form {
+    padding: 10px;
+}
+
+a p {
+    padding: 0;
+    padding-bottom: 10px;
+}
